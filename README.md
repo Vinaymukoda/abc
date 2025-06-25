@@ -19,7 +19,7 @@ REST_FRAMEWORK = {
 }
 
 # File: users/models.py
-from django.contrib.auth.models import AbstractUser
+from django.contrib.auth.models import Abstract User
 class CustomUser(AbstractUser):
     is_admin = models.BooleanField(default=False)
 
